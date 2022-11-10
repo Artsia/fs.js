@@ -1,7 +1,7 @@
 {
   "name": "passwordgenerator",
   "version": "1.0.0",
-  "description": "Creates random password",
+  "description": "Creates random password and stores to file",
   "main": "script.js",
   "scripts": {
     "start": "nodemon script.js"
