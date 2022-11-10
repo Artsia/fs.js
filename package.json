@@ -1,0 +1,14 @@
+{
+  "name": "passwordgenerator",
+  "version": "1.0.0",
+  "description": "Creates random password",
+  "main": "script.js",
+  "scripts": {
+    "start": "nodemon script.js"
+  },
+  "author": "Phillip Kataswa",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}
