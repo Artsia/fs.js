@@ -4,10 +4,12 @@ https://nodejs.org/api/fs.html#filehandlecreatereadstreamoptions*/
 
 var fs = require('fs');
 
-/**genearate a random password 
+/**
+ * genearate a random password 
  * @length is the size of the password as an integer
  * @passwordFor is the file location name for which the password is being created
-*/
+ * */
+
 function hashing(passwordFor, length){
     const alhpabelt = "abcdefghijklmnopqrstuvwxyz";
     const alhpabeltUppper = alhpabelt.toUpperCase();
@@ -82,3 +84,4 @@ readData('mynewfile3.txt')
 hassAccess('google.txt') */
 
 
+//export default [hashing,readData,hassAccess,createFile,appendPassWordToFile];
